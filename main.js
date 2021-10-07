@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-
-<!--
-   This page is a simple demo of WebGL.  It draws a triangle
-   where each vertex has a different color.  This is the standard
-   OpenGL "RGB Triangle" example.  In this program, color
-   is a varying variable, and there is a vertexColor attribute
-   to specify the colors for the three vertices.
--->
-
-<html>
-<head>
-<meta charset="UTF-8">
-<title>RGB Triangle in WebGL</title>
-
-<script src="/main.js"></script>
-
-<!-- <script>
-
 "use strict";
 
 const  vertexShaderSource =
@@ -150,18 +131,3 @@ function init() {
 }
 
 window.onload = init;  // Arrange for init() to be called when the page has been loaded.
-
-</script> -->
-</head>
-<body>
-
-<h2>The RGB Triangle in WebGL</h2>
-
-<noscript><p><b>Sorry, but this page requires JavaScript.</b></p></noscript>
-
-<div id="canvas-holder">
-<canvas id="webglcanvas" width="500" height="500"></canvas>
-</div>
-
-</body>
-</html>
