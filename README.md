@@ -1,2 +1,2 @@
-# ancientstraits.github.com
+# ancientstraits.github.io
 TypeScript Game
